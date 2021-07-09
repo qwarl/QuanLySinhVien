@@ -34,7 +34,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
             android:gravity="center_horizontal"
-            android:text="FORM DANG NHAP"
+            android:text="DANG NHAP"
             android:textSize="30dp"
             android:textStyle="bold" />
 
@@ -55,25 +55,19 @@
             android:inputType="textPassword" />
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
             android:orientation="horizontal">
 
             <Button
                 android:id="@+id/btnDanNhap"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="2dp"
                 android:layout_weight="1"
                 android:text="DANG NHAP" />
 
-            <Button
-                android:id="@+id/btnHuy"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="2dp"
-                android:layout_weight="1"
-                android:text="Huy" />
         </LinearLayout>
 
     </LinearLayout>
